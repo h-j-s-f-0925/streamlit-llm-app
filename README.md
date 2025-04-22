@@ -119,6 +119,7 @@ streamlit run app.py --logger.level=debug
 - デプロイ先は、Streamlit Community Cloud を使用する
 - Streamlit では、poetry install --no-root を指定できない
 - requeirements.txt を作成して、デプロイする
+- Streamlit Community Cloud で、OPENAI_API_KEY を「APP settings 」で環境変数として設定する
 
 ```bash
 # 依存状況を共有
