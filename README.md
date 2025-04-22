@@ -110,6 +110,10 @@ which python
 streamlit run app.py
 ```
 
+- キャッシュログを確認するには、デバッグモードを有効化
+```bash
+streamlit run app.py --logger.level=debug
+```
 
 # デプロイ
 - デプロイ先は、Streamlit Community Cloud を使用する

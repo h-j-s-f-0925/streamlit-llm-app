@@ -82,7 +82,7 @@ def get_llm_chain_by_cooking_expert(ingredient):
     chain = LLMChain(
         prompt=prompt,
         llm=llm,
-        # verbose=True
+        verbose=True
     )
 
     result = chain.run(ingredient=ingredient)
